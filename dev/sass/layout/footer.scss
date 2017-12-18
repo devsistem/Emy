@@ -1,0 +1,40 @@
+@import "../config";
+
+
+footer{
+  height: 10vh; 
+  background: black;
+  width: 100%;
+
+}
+.redes{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li{
+  display: inline-block;
+  margin-right: 20px;
+}
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 0 auto;
+}
+i{
+  color: red;
+  padding: 0;
+  font-size:40px !important;
+}
+a:hover>i{
+  color: white;
+}
+a{
+  margin: 0;
+  padding: 0;
+}
+
+
+

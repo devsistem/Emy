@@ -1,0 +1,23 @@
+body{
+  margin-top:o;
+  padding: 0;
+}
+h1, 
+h2,
+h3,
+h4
+{
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: content-box; /* 1 */
+}
+body{
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding:0;
+ }
